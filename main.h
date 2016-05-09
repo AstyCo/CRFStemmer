@@ -1,0 +1,38 @@
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
+
+enum feature {
+	F_NULL,
+	F_LETTER,
+	F_PNCT,
+	F_SENTENCE,
+	F_WORD,
+	F_LEMMAID,
+	F_PNCTL,
+	F_PNCTR,
+	F_TREEDEP,
+	F_POST,
+	F_ANIM,
+	F_GNDR,
+	F_NMBR,
+	F_CASE,
+	F_ASPC,
+	F_TRNS,
+	F_PERS,
+	F_TENS,
+	F_MOOD,
+	F_INVL,
+	F_VOIC,
+	F_GROUP_ID,
+	F_UNCERTAIN,
+	F_NR_ITEMS
+}; //1,4,6,7,9-20
+
+enum _constants{
+	_EOF = 0,
+	_OK
+};
+
+
+
+#endif // MAIN_H_INCLUDED
